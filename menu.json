@@ -1,0 +1,60 @@
+{
+    "menu" : {
+
+        "permissions": [
+        ],
+
+        "usergroups": [
+        ],
+
+        "label": "Bem-vindo a página de gerenciamento de IC's!",
+
+        "sections": [
+            {
+                "label": "IC's",
+                "href": "{{ICS_FOLDER}}",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Cadastrar IC",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar IC",
+                        "icon": "bullhorn",
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "label": "Orientadores",
+                "href": "{{ORIENTADORES_FOLDER}}",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Cadastrar Orientador",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar Orientador",
+                        "icon": "bullhorn",
+                        "href": ""
+                    }
+                ]
+            }
+        ],
+    }
+}
+

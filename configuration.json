@@ -1,0 +1,139 @@
+/**
+ * Fence core configuration.
+ *
+ * Constants, clearance directives and libraries described here
+ * will be in effect for all of Fence interfaces.
+ */
+{
+    "configuration": {
+
+        "egroups": [
+        ],
+
+        "maintenance": false,
+
+        "users": [
+            {
+                "id": "FENCE",
+                "filename": "{{COMMON_PATH}}/source/fenceuser.php",
+                "class": "FenceUser"
+            }
+        ],
+
+        "user": "FENCE",
+
+        "constants": {
+
+            "EXPERIMENT": "Cadastro de IC's",
+
+            "PORTAL": "https://www.google.com/#hl=en&q=fence",
+
+            "COMMON_PATH": "{{BASE_PATH}}/ic",
+            "COMMON_FOLDER": "{{BASE_FOLDER}}/ic",
+
+            "UPLOAD_PATH": "{{CGI_PATH}}",
+
+            "TEAM": "Glance",
+
+            "TEAM_EMAIL": "Atlas.Glance@cern.ch",
+
+            "TEAM_CONTACT": "<a href=\"mailto:\"{{TEAM_EMAIL}}>{{TEAM}} Team</a>",
+
+            "PROTOCOL": "https",
+            "DOMAIN": "{{PROTOCOL}}://atglance.web.cern.ch",
+            "EXECUTE_QUERY": "{{DOMAIN}}/cgi-bin/executeQuery",
+
+            "GLANCE_FOLDER": "{{COMMON_FOLDER}}",
+            "ICS_FOLDER": "{{BASE_FOLDER}}/ics",
+            "ORIENTADORES_FOLDER": "{{BASE_FOLDER}}/orientadores",
+
+            "ABS_PATH": "{{DOMAIN}}{{BASE_FOLDER}}",
+
+            "CURRENT_FOLDER": "{{COMMON_FOLDER}}",
+            "CURRENT_PATH": "{{COMMON_PATH}}",
+
+            "SYSTEM_FOLDER": "{{COMMON_FOLDER}}",
+            "MEMBER_PROFILE": "@xwho",
+
+            "LOGOUT": "{{COMMON_FOLDER}}/logout.php",
+
+            "SOME_ENV_DEPENDANT_CONSTANT": {
+                "DEFAULT":              1,
+                "ATLAS-STAGE":          2,
+                "ATLAS-DEVELOPMENT":    3,
+                "ATLAS-PRODUCTION":     4,
+                "ALICE-STAGE":          5,
+                "ALICE-DEVELOPMENT":    6,
+                "ALICE-PRODUCTION":     7,
+                "LHCB-STAGE":           8,
+                "LHCB-DEVELOPMENT":     9,
+                "LHCB-PRODUCTION":      10,
+                "LOCALHOST-HERON":      11,
+                "LOCALHOST-IGOR":       12,
+                "PRODUCTION":           13
+            },
+
+            "SINGLE_AUTHENTICATION": true
+
+        },
+
+        "interfaces": [
+            {
+                "label": "IC's",
+                "href": "{{ICS_FOLDER}}",
+                "usergroups": [],
+                "permissions": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Cadastrar IC",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar IC",
+                        "icon": "bullhorn",
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "label": "Orientadores",
+                "href": "{{ORIENTADORES_FOLDER}}",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Cadastrar Orientador",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar Orientador",
+                        "icon": "bullhorn",
+                        "href": ""
+                    }
+                ]
+            }
+        ],
+
+        "libraries": {
+            "JQUERY": "2.0.1",
+            "BOOTSTRAP": "3.2.0",
+            "TYPEAHEAD": "3.0.3",
+            "FONT-AWESOME": "4.2.0",
+            "MATHJAX": "LATEST",
+            "CHOSEN": "1.1.0",
+            "NOTIFY": "0.3.1"
+        }
+    }
+}
+
