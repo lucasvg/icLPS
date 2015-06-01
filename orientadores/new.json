@@ -1,0 +1,90 @@
+{
+    "form": {
+
+        "label": "Novo Orientador",
+
+        "render_access_icons": false,
+
+        "steps": [
+            {
+                "label": "Dados Cadastrais",
+                "description": "Preencha todos os dados do novo Orientador",
+                "inputs": [
+                    {
+                        "type": "text",
+                        "name": "name",
+                        "label": "Nome Completo",
+                        "about": "Preencha o nome completo do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "department",
+                        "label": "Departamento",
+                        "about": "Preencha o nome do departamento do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "room",
+                        "label": "Sala",
+                        "about": "Informe a sala do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 10,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "phone",
+                        "label": "Telefone",
+                        "about": "Informe o número de telefone do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 15,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "mobile",
+                        "label": "Celular",
+                        "about": "Informe o número de celular do orientador.",
+                        "rules": {
+                            "required": false,
+                            "maxlength": 15,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "email",
+                        "label": "Email",
+                        "about": "Preencha o email do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "lattes",
+                        "label": "Lattes",
+                        "about": "Insira o link para o lattes do orientador.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 512,
+                        }
+                    }
+                ]
+            }
+        ]
+
+    }
+}

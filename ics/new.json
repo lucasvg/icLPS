@@ -1,0 +1,288 @@
+{
+    "form": {
+
+        "label": "Novo Aluno",
+
+        "render_access_icons": false,
+
+        "steps": [
+            {
+                "label": "Dados Pessoais",
+                "description": "Preencha os dados pessoais do novo Aluno",
+                "inputs": [
+                    {
+                        "type": "text",
+                        "name": "name",
+                        "label": "Nome Completo",
+                        "about": "Preencha o nome completo do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "cpf",
+                        "label": "CPF",
+                        "about": "Informe o CPF do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 15,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "phone",
+                        "label": "Telefone",
+                        "about": "Informe o número de telefone do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 15,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "mobile",
+                        "label": "Celular",
+                        "about": "Informe o número de celular do aluno.",
+                        "rules": {
+                            "required": false,
+                            "maxlength": 15,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "email",
+                        "label": "Email",
+                        "about": "Preencha o email do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "respName",
+                        "label": "Nome do Responsável",
+                        "about": "Preencha o nome completo do responsável.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "respPhone",
+                        "label": "Contato do Responsável",
+                        "about": "Informe o número de telefone do responsável.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 15,
+                        }
+                    }
+               ]
+            },
+            {
+                "label": "Dados Bancários",
+                "description": "Preencha os dados bancários do novo Aluno",
+                "inputs": [
+                    {
+                        "type": "text",
+                        "name": "bank",
+                        "label": "Banco",
+                        "about": "Preencha com o nome do banco do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 50,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "agency",
+                        "label": "Agência",
+                        "about": "Informe o número da agência.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 25,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "account",
+                        "label": "Conta",
+                        "about": "Informe o número da conta.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 25,
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "Dados Curriculares",
+                "description": "Preencha as informações curriculares do novo Aluno",
+                "inputs": [
+                    {
+                        "type": "number",
+                        "name": "dre",
+                        "label": "DRE",
+                        "about": "Informe o DRE do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 9,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "department",
+                        "label": "Departamento",
+                        "about": "Preencha o nome do departamento do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "cra",
+                        "label": "CRA",
+                        "about": "Informe o CRA do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 4,
+                        }
+                    },
+                    {
+                        "type": "number",
+                        "name": "semester",
+                        "label": "Período",
+                        "about": "Informe o período do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 2,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "curriculum",
+                        "label": "Upload do CV",
+                        "about": "Faça o upload do Curriculum Vitae (.pdf).",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "transcript",
+                        "label": "Upload do Boletim",
+                        "about": "Faça o upload do Boletim Escolar.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "lattes",
+                        "label": "Lattes",
+                        "about": "Insira o link para o lattes do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 512,
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "Dados da Bolsa",
+                "description": "Preencha as informações sobre a bolsa do novo Aluno",
+                "inputs": [
+                    {
+                        "type": "text",
+                        "name": "orientador",
+                        "label": "Orientador",
+                        "about": "Selecione o orientador do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "projectTitle",
+                        "label": "Título do Projeto",
+                        "about": "Preencha o título do projeto do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "textarea",
+                        "name": "projectDescription",
+                        "label": "Descrição do Projeto",
+                        "about": "Descreva o projeto do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 512,
+                            "lettersonly": true
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "type",
+                        "label": "Tipo de Aluno",
+                        "about": "Selecione o perfil do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "date",
+                        "name": "endDateProject",
+                        "label": "Data de Término do Projeto",
+                        "about": "Informe a data de término do projeto.",
+                        "rules": {
+                            "required": true,
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "scholarshipType",
+                        "label": "Tipo de Bolsa",
+                        "about": "Informe o tipo da bolsa do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255,
+                        }
+                    },
+                    {
+                        "type": "date",
+                        "name": "startDateScholarship",
+                        "label": "Data de Início da Bolsa",
+                        "about": "Informe a data de início da bolsa.",
+                        "rules": {
+                            "required": true,
+                        }
+                    },
+                    {
+                        "type": "date",
+                        "name": "endDateScholarship",
+                        "label": "Data de Término da Bolsa",
+                        "about": "Informe a data de término da bolsa.",
+                        "rules": {
+                            "required": true,
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
