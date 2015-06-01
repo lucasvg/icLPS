@@ -23,7 +23,7 @@
                     {
                         "label": "Cadastrar IC",
                         "icon": "bookmark",
-                        "href": ""
+                        "href": "{{ICS_FOLDER}}/new.php"
                     },
                     {
                         "label": "Editar IC",
@@ -45,7 +45,7 @@
                     {
                         "label": "Cadastrar Orientador",
                         "icon": "bookmark",
-                        "href": ""
+                        "href": "{{ORIENTADORES_FOLDER}}/new.php"
                     },
                     {
                         "label": "Editar Orientador",
@@ -54,7 +54,6 @@
                     }
                 ]
             }
-        ],
+        ]
     }
 }
-

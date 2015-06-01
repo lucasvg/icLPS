@@ -39,7 +39,7 @@
                         "about": "Informe a sala do orientador.",
                         "rules": {
                             "required": true,
-                            "maxlength": 10,
+                            "maxlength": 10
                         }
                     },
                     {
@@ -49,7 +49,7 @@
                         "about": "Informe o número de telefone do orientador.",
                         "rules": {
                             "required": true,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     },
                     {
@@ -59,7 +59,7 @@
                         "about": "Informe o número de celular do orientador.",
                         "rules": {
                             "required": false,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     },
                     {
@@ -69,7 +69,7 @@
                         "about": "Preencha o email do orientador.",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -79,7 +79,7 @@
                         "about": "Insira o link para o lattes do orientador.",
                         "rules": {
                             "required": true,
-                            "maxlength": 512,
+                            "maxlength": 512
                         }
                     }
                 ]

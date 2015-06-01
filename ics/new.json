@@ -28,7 +28,7 @@
                         "about": "Informe o CPF do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     },
                     {
@@ -38,7 +38,7 @@
                         "about": "Informe o número de telefone do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     },
                     {
@@ -48,7 +48,7 @@
                         "about": "Informe o número de celular do aluno.",
                         "rules": {
                             "required": false,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     },
                     {
@@ -58,7 +58,7 @@
                         "about": "Preencha o email do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -79,7 +79,7 @@
                         "about": "Informe o número de telefone do responsável.",
                         "rules": {
                             "required": true,
-                            "maxlength": 15,
+                            "maxlength": 15
                         }
                     }
                ]
@@ -95,7 +95,7 @@
                         "about": "Preencha com o nome do banco do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 50,
+                            "maxlength": 50
                         }
                     },
                     {
@@ -105,7 +105,7 @@
                         "about": "Informe o número da agência.",
                         "rules": {
                             "required": true,
-                            "maxlength": 25,
+                            "maxlength": 25
                         }
                     },
                     {
@@ -115,7 +115,7 @@
                         "about": "Informe o número da conta.",
                         "rules": {
                             "required": true,
-                            "maxlength": 25,
+                            "maxlength": 25
                         }
                     }
                 ]
@@ -131,7 +131,7 @@
                         "about": "Informe o DRE do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 9,
+                            "maxlength": 9
                         }
                     },
                     {
@@ -152,7 +152,7 @@
                         "about": "Informe o CRA do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 4,
+                            "maxlength": 4
                         }
                     },
                     {
@@ -162,7 +162,7 @@
                         "about": "Informe o período do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 2,
+                            "maxlength": 2
                         }
                     },
                     {
@@ -172,7 +172,7 @@
                         "about": "Faça o upload do Curriculum Vitae (.pdf).",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -182,7 +182,7 @@
                         "about": "Faça o upload do Boletim Escolar.",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -192,7 +192,7 @@
                         "about": "Insira o link para o lattes do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 512,
+                            "maxlength": 512
                         }
                     }
                 ]
@@ -241,7 +241,7 @@
                         "about": "Selecione o perfil do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -250,7 +250,7 @@
                         "label": "Data de Término do Projeto",
                         "about": "Informe a data de término do projeto.",
                         "rules": {
-                            "required": true,
+                            "required": true
                         }
                     },
                     {
@@ -260,7 +260,7 @@
                         "about": "Informe o tipo da bolsa do aluno.",
                         "rules": {
                             "required": true,
-                            "maxlength": 255,
+                            "maxlength": 255
                         }
                     },
                     {
@@ -269,7 +269,7 @@
                         "label": "Data de Início da Bolsa",
                         "about": "Informe a data de início da bolsa.",
                         "rules": {
-                            "required": true,
+                            "required": true
                         }
                     },
                     {
@@ -278,7 +278,7 @@
                         "label": "Data de Término da Bolsa",
                         "about": "Informe a data de término da bolsa.",
                         "rules": {
-                            "required": true,
+                            "required": true
                         }
                     }
                 ]
