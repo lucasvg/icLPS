@@ -1,0 +1,126 @@
+{
+    "glancesearch": {
+        "siid": "ALUNOS_SEARCH",
+            "name": {
+                "label": "Nome",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "cep": {
+                "label": "CEP",
+                "type": "text",
+                "rules": {
+                    "minlength": 2
+                }
+            },
+            "city": {
+                "label": "Cidade",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "department": {
+                "label": "Departamento",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "cra": {
+                "label": "CRA",
+                "type": "text",
+                "rules": {
+                    "minlength": 1
+                }
+            },
+            "semester": {
+                "label": "Semestre",
+                "type": "text",
+                "rules": {
+                    "minlength": 1
+                }
+            },
+            "orientador": {
+                "label": "Orientador",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "projectTitle": {
+                "label": "Título do Projeto",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "type": {
+                "label": "Tipo de Aluno",
+                "type": "select",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                },
+                "options": [
+                    {
+                        "type": "raw",
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "type": "raw",
+                        "value": "ic",
+                        "label": "IC"
+                    },
+                    {
+                        "type": "raw",
+                        "value": "mestrado",
+                        "label": "Mestrado"
+                    },
+                    {
+                        "type": "raw",
+                        "value": "doutorado",
+                        "label": "Doutorado"
+                    },
+                    {
+                        "type": "raw",
+                        "value": "final",
+                        "label": "Projeto Final"
+                    }
+                ],
+                "default": ""
+            },
+            "scholarshipType": {
+                "label": "Tipo de Bolsa",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "startDateScholarship": {
+                "label": "Início da Bolsa",
+                "type": "date",
+                "rules": {
+                    "date": true
+                }
+            },
+            "endDateScholarship": {
+                "label": "Fim da Bolsa",
+                "mode": "search",
+                "type": "date",
+                "rules": {
+                    "date": true
+                }
+            }
+        }
+    }
+}

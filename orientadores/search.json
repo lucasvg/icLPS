@@ -1,0 +1,63 @@
+{
+    "glancesearchinterface": {
+        "sections": [
+            {
+                "label": "Filtro de Departamento",
+                "icon": "filter",
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 4,
+                    "lg": 4
+                },
+                "properties": [
+                    "department"
+                ]
+            },
+            {
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 8,
+                    "lg": 8
+                },
+                "sections": [
+                    {
+                        "label": "Informações do Orientador",
+                        "icon": "bookmark",
+                        "properties": [
+                            "name",
+                            "department"
+                        ],
+                        "width": {
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12
+                        }
+                    }
+                ]
+            }
+        ],
+
+        "results": [
+            {
+                //"type": "table" // if no type is defined, assume table
+                "libraries": {
+                    "DATATABLES": "1.9.4"
+                },
+                "icon": "search",
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12
+                },
+                "columns": [
+                    {
+                    }
+                ]
+            }
+        ]
+    }
+}

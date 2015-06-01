@@ -43,7 +43,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "phone",
                         "label": "Telefone",
                         "about": "Informe o número de telefone do orientador.",
@@ -53,7 +53,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "mobile",
                         "label": "Celular",
                         "about": "Informe o número de celular do orientador.",

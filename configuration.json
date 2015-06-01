@@ -24,9 +24,9 @@
 
         "constants": {
 
-            "EXPERIMENT": "Cadastro de IC's",
+            "EXPERIMENT": "LPS",
 
-            "PORTAL": "https://www.google.com/#hl=en&q=fence",
+            "PORTAL": "http://www.lps.ufrj.br/",
 
             "COMMON_PATH": "{{BASE_PATH}}/ic",
             "COMMON_FOLDER": "{{BASE_FOLDER}}/ic",
@@ -87,7 +87,7 @@
                     {
                         "label": "Pesquisar",
                         "icon": "user",
-                        "href": ""
+                        "href": "{{ICS_FOLDER}}/main.php"
                     },
                     {
                         "label": "Cadastrar IC",
@@ -109,7 +109,7 @@
                     {
                         "label": "Pesquisar",
                         "icon": "user",
-                        "href": ""
+                        "href": "{{ORIENTADORES_FOLDER}}/main.php"
                     },
                     {
                         "label": "Cadastrar Orientador",
@@ -120,6 +120,28 @@
                         "label": "Editar Orientador",
                         "icon": "bullhorn",
                         "href": ""
+                    }
+                ]
+            },
+            {
+                "label": "Meu Perfil",
+                "href": "{{ORIENTADORES_FOLDER}}",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Visualizar Informações",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Meus Alunos",
+                        "icon": "bullhorn",
+                        "href": "{{ICS_FOLDER}}/main.php"
                     }
                 ]
             }

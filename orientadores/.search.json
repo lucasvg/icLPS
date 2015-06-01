@@ -1,0 +1,22 @@
+{
+    "glancesearch": {
+        "siid": "ORIENTADORES_SEARCH",
+            "name": {
+                "label": "Nome",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            },
+            "department": {
+                "label": "Departamento",
+                "type": "text",
+                "rules": {
+                    "lettersonly": true,
+                    "minlength": 2
+                }
+            }
+        }
+    }
+}

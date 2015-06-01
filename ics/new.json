@@ -22,7 +22,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "cpf",
                         "label": "CPF",
                         "about": "Informe o CPF do aluno.",
@@ -32,7 +32,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "phone",
                         "label": "Telefone",
                         "about": "Informe o número de telefone do aluno.",
@@ -42,7 +42,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "mobile",
                         "label": "Celular",
                         "about": "Informe o número de celular do aluno.",
@@ -63,6 +63,36 @@
                     },
                     {
                         "type": "text",
+                        "name": "address",
+                        "label": "Endereço",
+                        "about": "Preencha o endereço completo do aluno.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "cep",
+                        "label": "CEP",
+                        "about": "Preencha o CEP do endereço digitado no item anterior.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "name": "city",
+                        "label": "Cidade",
+                        "about": "Selecione a cidade.",
+                        "rules": {
+                            "required": true,
+                            "maxlength": 255
+                        }
+                    },
+                    {
+                        "type": "text",
                         "name": "respName",
                         "label": "Nome do Responsável",
                         "about": "Preencha o nome completo do responsável.",
@@ -73,7 +103,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "respPhone",
                         "label": "Contato do Responsável",
                         "about": "Informe o número de telefone do responsável.",
@@ -99,7 +129,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "agency",
                         "label": "Agência",
                         "about": "Informe o número da agência.",
@@ -109,7 +139,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "account",
                         "label": "Conta",
                         "about": "Informe o número da conta.",
@@ -125,7 +155,7 @@
                 "description": "Preencha as informações curriculares do novo Aluno",
                 "inputs": [
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "dre",
                         "label": "DRE",
                         "about": "Informe o DRE do aluno.",
@@ -146,7 +176,7 @@
                         }
                     },
                     {
-                        "type": "number",
+                        "type": "text",
                         "name": "cra",
                         "label": "CRA",
                         "about": "Informe o CRA do aluno.",

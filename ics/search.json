@@ -1,0 +1,85 @@
+{
+    "glancesearchinterface": {
+        "sections": [
+            {
+                "label": "Filtro de Orientador",
+                "icon": "filter",
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 4,
+                    "lg": 4
+                },
+                "properties": [
+                    "orientador"
+                ]
+            },
+            {
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 8,
+                    "lg": 8
+                },
+                "sections": [
+                    {
+                        "label": "Informações do Aluno",
+                        "icon": "bookmark",
+                        "properties": [
+                            "name",
+                            "cep",
+                            "city",
+                            "department",
+                            "cra",
+                            "semester",
+                            "type"
+                        ],
+                        "width": {
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12
+                        }
+                    },
+                    {
+                        "label": "Informações do Projeto",
+                        "icon": "user",
+                        "properties": [
+                            "orientador",
+                            "projectTitle",
+                            "scholarshipType",
+                            "startDateScholarship",
+                            "endDateScholarship"
+                        ],
+                        "width": {
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12
+                        }
+                    }
+                ]
+            }
+        ],
+
+        "results": [
+            {
+                //"type": "table" // if no type is defined, assume table
+                "libraries": {
+                    "DATATABLES": "1.9.4"
+                },
+                "icon": "search",
+                "width": {
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12
+                },
+                "columns": [
+                    {
+                    }
+                ]
+            }
+        ]
+    }
+}
