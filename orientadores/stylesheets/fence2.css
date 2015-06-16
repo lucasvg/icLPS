@@ -1,0 +1,105 @@
+.navbar-default {
+    background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background-color:#54b4eb;
+    border-bottom:1px solid #178acc;
+}
+.navbar-default .navbar-brand {
+    color:#3D2D7E;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color:#161B53;
+}
+.navbar-default .navbar-toggle {
+    border-color:#096F2E;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#F1F1F1;
+}
+.navbar-default .navbar-nav>li>a {
+    color:#3D2D7E;
+}
+.navbar-default .navbar-text {
+    color:#3D2D7E;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color:#146EC4;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color:#F1F1F1;
+    background-color:#146EC4;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color:#146EC4;
+    color:#F1F1F1;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color:#F1F1F1;
+    background-color:#146EC4;
+}
+.navbar-brand a {
+    color:#0B5F15;
+}
+a {
+    color:#063F70;
+}
+span.cern {
+    color:#142D6D;
+}
+span.slogan{
+    color:#2A4999;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color:#19411E;
+}
+.breadcrumb {
+    background-color:#E7F8FC;
+    border-bottom:1px solid #D4D4FC;
+}
+.media {
+    box-shadow:1px 1px 1px #ccc;
+}
+.media.card {
+    min-width:430px;
+    margin-bottom:20px;
+    position:relative;
+    background-color:#E7FCE9;
+    padding:15px;
+    border-radius:0 4px 0 0;
+}
+.media.strip {
+    margin-top:9px;
+    position:relative;
+    background-color:#E7FCE9;
+    padding:10px;
+    border-radius:4px;
+}
+.member-name {
+    margin-top:0;
+}
+.media-body div.bottom {
+    position:absolute;
+    bottom:11px;
+}
+span.thumbnail , a.thumbnail {
+    margin-bottom:0px;
+}
+@media (max-width: 990px) {
+    #quick-search , div.typeahead {
+        width:180px;
+    }
+}
+.btn-contact {
+    background-color: #333370;
+    color:#fff;
+    border-color: #0B0D3F;
+    padding:5px 10px;
+}
+.btn-contact:hover, .btn-contact:focus, .btn-contact:active, .btn-contact.active, .open .dropdown-toggle.btn-contact {
+    color: #14144B;
+    background-color: #AAC8E9;
+    border-color: #1C7B88;
+}

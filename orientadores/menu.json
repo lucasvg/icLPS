@@ -1,0 +1,33 @@
+{
+    "menu" : {
+
+        "permissions": [
+        ],
+
+        "usergroups": [
+        ],
+
+        "label": "Bem vindo a Gerência de Orientadores",
+
+        "sections": [
+            {
+                "label": "Orientadores",
+                "icon": "bookmark",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": "{{ORIENTADORES_FOLDER}}/main.php"
+                    },
+                    {
+                        "label": "Cadastrar",
+                        "icon": "bookmark",
+                        "href": "{{ORIENTADORES_FOLDER}}/new.php"
+                    }
+                ]
+            }
+        ]
+    }
+}
+

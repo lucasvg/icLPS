@@ -1,6 +1,7 @@
 {
     "glancesearch": {
         "siid": "ORIENTADORES_SEARCH",
+	"properties": {
             "name": {
                 "label": "Nome",
                 "type": "text",

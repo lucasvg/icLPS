@@ -1,0 +1,85 @@
+#card-edit {
+    position:absolute;
+    top:15px;
+    right:15px;
+}
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .sidebar-nav .navbar-default {
+        background:#E7FCE9;
+        border:none;
+        border-top:5px solid #E7FCE9;
+        border-bottom:5px solid #E7FCE9;
+        box-shadow:none;
+    }
+    .panel.active .panel-heading {
+        //background-color:#A0E0D9;
+    }
+    .panel-title>a.btn {
+        color:#fff;
+    }
+}
+.member-appointment {
+    width:100%;
+    display:inline-block;
+    margin-bottom:8px;
+    padding:5px 10px;
+    box-shadow:-2px 2px 2px #F0F0F0;
+}
+/*
+.member-appointment.current {
+    background-color:#0E9729;
+    color:#fff;
+}
+.member-appointment.current a {
+    color:#fff;
+}
+.member-appointment.upcoming {
+    background-color:#E8FFED;
+}
+.member-appointment.previous {
+    background-color:#FAFAFA;
+}
+*/
+.member-appointment .progress {
+    height:12px;
+    margin-bottom:10px;
+}
+.active .member-appointment {
+    /*background-color:#E9FAF9;*/
+}
+.former .member-appointment {
+    background-color:#FAFAFA;
+}
+.upcoming .member-appointment {
+    background-color:#E8FFED;
+}
+.former .member-appointment h4 ,
+.upcoming .member-appointment h4 {
+    font-size:1.1em;
+}
+.former .progress {
+    height:9px;
+}
+.upcoming .member-appointmnet h4 {
+    font-size:1.1em;
+}
+.upcoming .progress {
+    height:9px;
+}

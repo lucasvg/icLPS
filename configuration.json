@@ -15,7 +15,7 @@
         "users": [
             {
                 "id": "FENCE",
-                "filename": "{{COMMON_PATH}}/source/fenceuser.php",
+                "filename": "/srv/stage-newdev/ian/fence/source/fenceuser.php",
                 "class": "FenceUser"
             }
         ],
@@ -28,8 +28,8 @@
 
             "PORTAL": "http://www.lps.ufrj.br/",
 
-            "COMMON_PATH": "{{BASE_PATH}}/ic",
-            "COMMON_FOLDER": "{{BASE_FOLDER}}/ic",
+            "COMMON_PATH": "{{BASE_PATH}}/icLPS",
+            "COMMON_FOLDER": "{{BASE_FOLDER}}/icLPS",
 
             "UPLOAD_PATH": "{{CGI_PATH}}",
 
@@ -44,8 +44,8 @@
             "EXECUTE_QUERY": "{{DOMAIN}}/cgi-bin/executeQuery",
 
             "GLANCE_FOLDER": "{{COMMON_FOLDER}}",
-            "ICS_FOLDER": "{{BASE_FOLDER}}/ics",
-            "ORIENTADORES_FOLDER": "{{BASE_FOLDER}}/orientadores",
+            "ICS_FOLDER": "/stage-newdev/ian/icLPS/ics",
+            "ORIENTADORES_FOLDER": "/stage-newdev/ian/icLPS/orientadores",
 
             "ABS_PATH": "{{DOMAIN}}{{BASE_FOLDER}}",
 
@@ -56,6 +56,12 @@
             "MEMBER_PROFILE": "@xwho",
 
             "LOGOUT": "{{COMMON_FOLDER}}/logout.php",
+
+	    "APPOINTMENT_SEARCH": {
+		"DEFAULT": 6105,
+		"ATLAS-STAGE": 6105,
+		"PRODUCTION": 6106
+	    },
 
             "SOME_ENV_DEPENDANT_CONSTANT": {
                 "DEFAULT":              1,
@@ -90,14 +96,9 @@
                         "href": "{{ICS_FOLDER}}/main.php"
                     },
                     {
-                        "label": "Cadastrar IC",
+                        "label": "Cadastrar",
                         "icon": "bookmark",
                         "href": "{{ICS_FOLDER}}/new.php"
-                    },
-                    {
-                        "label": "Editar IC",
-                        "icon": "bullhorn",
-                        "href": ""
                     }
                 ]
             },
@@ -112,14 +113,9 @@
                         "href": "{{ORIENTADORES_FOLDER}}/main.php"
                     },
                     {
-                        "label": "Cadastrar Orientador",
+                        "label": "Cadastrar",
                         "icon": "bookmark",
                         "href": "{{ORIENTADORES_FOLDER}}/new.php"
-                    },
-                    {
-                        "label": "Editar Orientador",
-                        "icon": "bullhorn",
-                        "href": ""
                     }
                 ]
             },

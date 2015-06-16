@@ -12,51 +12,41 @@
         "sections": [
             {
                 "label": "Alunos",
-                "href": "{{ICS_FOLDER}}",
+                //"href": "{{ICS_FOLDER}}",
                 "usergroups": [],
                 "options": [
                     {
                         "label": "Pesquisar",
                         "icon": "user",
                         "href": "{{ICS_FOLDER}}/main.php"
-                    },
-                    {
-                        "label": "Cadastrar",
-                        "icon": "bookmark",
-                        "href": "{{ICS_FOLDER}}/new.php"
-                    },
-                    {
-                        "label": "Editar",
-                        "icon": "bullhorn",
-                        "href": ""
+//                    },
+//                    {
+//                        "label": "Cadastrar",
+//                        "icon": "bookmark",
+//                        "href": "{{ICS_FOLDER}}/new.php"
                     }
                 ]
             },
             {
                 "label": "Orientadores",
-                "href": "{{ORIENTADORES_FOLDER}}",
+                //"href": "{{ORIENTADORES_FOLDER}}",
                 "usergroups": [],
                 "options": [
                     {
                         "label": "Pesquisar",
                         "icon": "user",
                         "href": "{{ORIENTADORES_FOLDER}}/main.php"
-                    },
-                    {
-                        "label": "Cadastrar",
-                        "icon": "bookmark",
-                        "href": "{{ORIENTADORES_FOLDER}}/new.php"
-                    },
-                    {
-                        "label": "Editar",
-                        "icon": "bullhorn",
-                        "href": ""
+//                    },
+//                    {
+//                        "label": "Cadastrar",
+//                        "icon": "bookmark",
+//                        "href": "{{ORIENTADORES_FOLDER}}/new.php"
                     }
                 ]
             },
             {
                 "label": "Meu Perfil",
-                "href": "{{ORIENTADORES_FOLDER}}",
+                //"href": "{{ORIENTADORES_FOLDER}}",
                 "usergroups": [],
                 "options": [
                     {
@@ -65,7 +55,7 @@
                         "href": ""
                     },
                     {
-                        "label": "Editar",
+                        "label": "Alterar Senha",
                         "icon": "bookmark",
                         "href": ""
                     },
@@ -73,6 +63,29 @@
                         "label": "Meus Alunos",
                         "icon": "bullhorn",
                         "href": "{{ICS_FOLDER}}/main.php"
+                    }
+                ]
+            },
+            {
+                "label": "Gerenciamento",
+                //"href": "{{GERENCIAMENTO_FOLDER}}",
+                //"href": "",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Adicionar Grupo",
+                        "icon": "user",
+                        "href": ""
+                    },
+                    {
+                        "label": "Editar Grupo",
+                        "icon": "bookmark",
+                        "href": ""
+                    },
+                    {
+                        "label": "Adicionar Usuário",
+                        "icon": "bullhorn",
+                        "href": ""
                     }
                 ]
             }

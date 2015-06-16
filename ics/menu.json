@@ -1,0 +1,33 @@
+{
+    "menu" : {
+
+        "permissions": [
+        ],
+
+        "usergroups": [
+        ],
+
+        "label": "Bem vindo a Gerência de Alunos",
+
+        "sections": [
+            {
+                "label": "Alunos",
+                "icon": "bookmark",
+                "usergroups": [],
+                "options": [
+                    {
+                        "label": "Pesquisar",
+                        "icon": "user",
+                        "href": "{{ICS_FOLDER}}/main.php"
+                    },
+                    {
+                        "label": "Cadastrar",
+                        "icon": "bookmark",
+                        "href": "{{ICS_FOLDER}}/new.php"
+                    }
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,6 +1,7 @@
 {
     "glancesearch": {
         "siid": "ALUNOS_SEARCH",
+	"properties": {
             "name": {
                 "label": "Nome",
                 "type": "text",
